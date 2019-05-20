@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeeklyFragment"
+    android:orientation="vertical">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textSun"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="sun"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textSunToDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <View
+            android:layout_width="395dp"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textMon"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="mon"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textMonToDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <View
+            android:layout_width="395dp"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textTue"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="tue"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textTueToDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <View
+            android:layout_width="395dp"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textWed"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="wed"/>
+
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textWedToDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <View
+            android:layout_width="395dp"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textThu"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="thu"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textThuToDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <View
+            android:layout_width="395dp"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textFri"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="fri"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textFriToDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <View
+            android:layout_width="395dp"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textSat"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="sat"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textSatToDo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <View
+            android:layout_width="395dp"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+    </TableRow>
+</TableLayout>
