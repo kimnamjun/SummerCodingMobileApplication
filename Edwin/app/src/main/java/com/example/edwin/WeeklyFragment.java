@@ -55,10 +55,12 @@ public class WeeklyFragment extends Fragment {
     public void setDay(){
         int day = ((MainActivity)getActivity()).calendar.get(Calendar.DAY_OF_WEEK);
 
-        if(day < 4)
-            ((MainActivity)getActivity()).calendar.add(Calendar.DATE, - day - 3);
+        int dayZero = 1;
+
+        if(day < dayZero)
+            ((MainActivity)getActivity()).calendar.add(Calendar.DATE, - day - 7 + dayZero);
         else
-            ((MainActivity)getActivity()).calendar.add(Calendar.DATE, - day + 4);
+            ((MainActivity)getActivity()).calendar.add(Calendar.DATE, - day + dayZero);
 
         for(int i = 0; i < 7; i++){
             textDay[i].setText(makeString(i) + dayString[i]);
@@ -82,10 +84,10 @@ public class WeeklyFragment extends Fragment {
             ((MainActivity)getActivity()).calendar.add(Calendar.DATE,1);
         }
 
-        if(day < 4)
-            ((MainActivity)getActivity()).calendar.add(Calendar.DATE,day -4);
+        if(day < dayZero)
+            ((MainActivity)getActivity()).calendar.add(Calendar.DATE,day - dayZero);
         else
-            ((MainActivity)getActivity()).calendar.add(Calendar.DATE,day - 11);
+            ((MainActivity)getActivity()).calendar.add(Calendar.DATE,day - 7 - dayZero);
     }
 
     public String makeString(int i){
